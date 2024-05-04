@@ -7,8 +7,8 @@ import { SiHomeassistantcommunitystore } from "react-icons/si";
 
 const Sidebar = () => {
   return (
-    <div className="hidden sm:flex flex-col mt-4 gap-10 ml-2">
-      <div>
+    <div className="hidden sm:flex flex-col mt-4 w-[99px] items-center gap-14">
+      <div className="">
         <div className="bg-white w-10 h-10 flex justify-center items-center rounded-[100%]">
           <AiFillHome className=" text-2xl text-[#919191]" />
         </div>
