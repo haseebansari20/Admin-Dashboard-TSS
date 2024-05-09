@@ -16,51 +16,49 @@ const HomePage = () => {
       <div className="flex mt-3">
         <Sidebar />
         <div className="w-full mx-3">
-          <div className="hidden sm-block">
+          <div className="my-2">
             <div className="bg-white w-7 h-7 flex justify-center items-center rounded-[100%]">
-              <FaArrowRightArrowLeft className="text-md text-[#919191]" />
+              <FaArrowRightArrowLeft  className="text-gray-400"/>
             </div>
           </div>
           <div className="flex items-center">
-            <h1 className="text-[20px] sm:text-3xl font-bold w-1/2">
+            <h1 className="text-xl sm:text-3xl font-bold w-1/2">
               Category Dash-Enviroment Tab
             </h1>
           </div>
           <div className="flex justify-between items-center my-[1%]">
-            <p className="text-2xl font-semibold">Overview</p>
+            <p className="sm:text-2xl text-xl font-semibold">Overview</p>
             <div className="flex items-center gap-1">
-              <CiFilter className="text-2xl w-9 h-7 rounded-xl" />
-              <p className="text-lg font-semibold">Filter (0)</p>
-              <IoIosArrowDown className="text-2xl w-9 h-7 rounded-xl" />
+              <CiFilter className="sm:text-2xl text-xl w-9 h-7 rounded-xl" />
+              <p className="sm:text-lg text-md font-semibold">Filter (0)</p>
+              <IoIosArrowDown className="sm:text-2xl text-xl w-9 h-7 rounded-xl" />
             </div>
           </div>
           <div className="grid grid-cols-1 sm:flex items-center justify-between gap-[4%]">
-            <div className="space-y-[42px]">
-              <div className="w-[3/4] flex items-center bg-[#F36B12] text-white rounded-xl justify-center h-[172px]">
-                <IoIosSettings className="" size={146} />
-                <div className="flex flex-col justify-between h-[123px]">
-                  <h2 className="text-4xl font-semibold">Active Brands</h2>
-                  <p className="text-5xl font-bold">56</p>
+            <div className="sm:space-y-[42px] gap-[6px] sm:block">
+              <div className="sm:w-full flex items-center bg-[#F36B12] text-white rounded-xl justify-center sm:h-[172px] h-[120px]">
+                <IoIosSettings className="sm:text-9xl text-6xl" />
+                <div className="flex flex-col justify-between sm:h-[123px] h-[91px]">
+                  <h2 className="sm:text-4xl text-xl font-semibold">Active Brands</h2>
+                  <p className="sm:text-5xl text-2xl font-bold">56</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 mt-2">
-                <div className="bg-[#A9D355] text-white rounded-xl w-[267px] h-[143px] flex justify-center items-center">
-                  <div className="space-y-2 w-[200px] h-[91px]">
-                    <h2 className="text-2xl flex justify-center">
-                      Active Products
-                    </h2>
+              <div className="flex items-center sm:gap-4 gap-[6px] mt-2">
+                <div className="bg-[#A9D355] text-white rounded-xl sm:w-[267px] sm:h-[143px] w-1/2 h-[120px] flex justify-center items-center">
+                  <div className="space-y-2 sm:w-[205px] w-[170px] h-[91px]">
+                    <h2 className="sm:text-2xl text-xl">Inactive Products</h2>
                     <div className="flex items-center justify-between">
-                      <FaFolderPlus className="w-[57px] h-[44px]" />
-                      <p className="text-[48px] font-bold">145</p>
+                      <FaFolderPlus className="sm:w-[57px] sm:h-[44px] text-5xl" />
+                      <p className="sm:text-[48px] text-2xl font-bold">67</p>
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#470B0D] text-white rounded-xl w-[267px] h-[143px] flex justify-center items-center">
-                  <div className="space-y-2 w-[205px] h-[91px]">
-                    <h2 className="text-2xl">Inactive Products</h2>
+                <div className="bg-[#470B0D] text-white rounded-xl sm:w-[267px] sm:h-[143px] w-1/2 h-[120px] flex justify-center items-center">
+                  <div className="space-y-2 sm:w-[205px] w-[170px] h-[91px]">
+                    <h2 className="sm:text-2xl text-xl">Inactive Products</h2>
                     <div className="flex items-center justify-between">
-                      <FaFolderMinus className="w-[57px] h-[44px]" />
-                      <p className="text-[48px] font-bold">67</p>
+                      <FaFolderMinus className="sm:w-[57px] sm:h-[44px] text-5xl" />
+                      <p className="sm:text-[48px] text-2xl font-bold">145</p>
                     </div>
                   </div>
                 </div>

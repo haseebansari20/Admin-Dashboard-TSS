@@ -6,8 +6,8 @@ import { RxCrossCircled } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    // <div className="flex justify-between border-b items-center h-[90px]">
-    //   <div className="flex items-center w-[181px] justify-between h-[50px]">
+    // <div className="flex justify-between border-b items-center h-[90px] sm:ml-6 ml-3 mr-5">
+    //   <div className="flex items-center sm:w-[181px] w-[150px] justify-between h-[50px]">
     //     <div>
     //       <div className="bg-white w-10 h-10 flex justify-center items-center rounded-[100%]">
     //         <GiHamburgerMenu className="text-2xl text-[#C3CAD9]" />
@@ -31,11 +31,11 @@ const Navbar = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="flex justify-between border-b items-center h-[90px] ml-6 mr-5">
-      <div className="flex items-center w-[181px] justify-between h-[50px]">
+    <div className="flex justify-between border-b items-center w-full h-[9vh] sm:px-6 px-3">
+      <div className="flex items-center justify-between sm:gap-6 gap-3" >
         <div>
           <div className="bg-white w-10 h-10 flex justify-center items-center rounded-[100%]">
-            <GiHamburgerMenu className="text-2xl text-[#C3CAD9]" />
+            <GiHamburgerMenu className="sm:text-2xl text-xl text-[#C3CAD9]" />
           </div>
         </div>
         <p className="sm:text-2xl text-xl text-[#4D5E80] font-bold">Logo here</p>
@@ -56,6 +56,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+  
   );
 };
 
